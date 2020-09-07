@@ -2,8 +2,7 @@
 @import "./blocks/main.scss";
 
 *,
-::after,
-:hover {
+::after {
   box-sizing: border-box;
 }
 
