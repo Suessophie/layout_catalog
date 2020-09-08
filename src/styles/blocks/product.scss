@@ -1,0 +1,95 @@
+.product {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  height: 403px;
+  width: 200px;
+  padding: 15px 14px 14px;
+
+  &--bottom {
+    margin-bottom: 50px;
+  }
+
+  &__image {
+    width: 170px;
+    height: 164px;
+    padding: 12px 2px;
+    border: 3px solid transparent;
+    margin-bottom: 26px;
+    transition: transform 1s;
+
+    &:hover {
+      border-color: #f3f3f3;
+      transform: scale(1.2);
+    }
+  }
+
+  &__name {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  &__code {
+    margin-bottom: 15px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+  }
+
+  &__review {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__stars {
+    display: flex;
+  }
+
+  &__amount {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__cost {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+  }
+
+  &__value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  &__button {
+    background-color: #00acdc;
+    color: #fff;
+    border: 1px solid #00acdc;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    transition: 0.3s;
+  
+    &:hover {
+      background-color: #fff;
+      color: #00acdc;
+    }
+  }
+}
