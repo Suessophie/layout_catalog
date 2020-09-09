@@ -4,11 +4,7 @@
   
   &__container {
     display: grid;
-    gap: 48px;
+    gap: 50px 48px;
     grid-template-columns: repeat(4, 200px);
-  }
-
-  &__product {
-    margin-bottom: 2px;
   }
 }
